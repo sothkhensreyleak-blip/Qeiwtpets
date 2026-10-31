@@ -1,0 +1,17 @@
+name: Qeiwtpets
+version: 1.0.0
+main: dev.qeiwtpets.Qeiwtpets
+api-version: '26.2'
+description: Pets that float around you, level up and give abilities.
+commands:
+  pets:
+    description: Open the pets menu
+    aliases: [qeiwtpets]
+    usage: /pets [reload|givexp <player> <pet> <amount>]
+permissions:
+  qeiwtpets.use:
+    description: Open the pets menu
+    default: true
+  qeiwtpets.admin:
+    description: Reload and give pet XP
+    default: op

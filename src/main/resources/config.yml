@@ -1,0 +1,13 @@
+# Qeiwtpets configuration
+
+# How many pets a player can have active at the same time
+max-active-pets: 2
+
+gui:
+  title: "&8Qeiwtpets"
+
+messages:
+  activated: "&aActivated pet: %pet%"
+  deactivated: "&7Deactivated pet: %pet%"
+  no-permission: "&cYou don't have access to this pet."
+  limit-reached: "&cYou can only have %max% active pets. Deactivate one first."

@@ -1,0 +1,19 @@
+# File name = pet id. Add more files in this folder to create more pets.
+name: "&bGOJO PET"
+description:
+  - "The strongest."
+  - "Strength II + Speed II"
+icon: ENDER_EYE         # item shown in the /pets menu
+display-item: ENDER_EYE # item that floats around the player
+scale: 0.7
+permission: ""          # leave empty so everyone can use it, or e.g. qeiwtpets.pet.gojo
+
+# XP needed to go from level 1->2, 2->3, 3->4 ... (max level = list size + 1)
+level-xp-requirements: [50, 125, 200]
+
+# Potion effects given while the pet is active.
+# amplifier: 0 = level I, 1 = level II, 2 = level III ...
+# If two active pets give the same effect, the strongest amplifier is used.
+abilities:
+  - { effect: STRENGTH, amplifier: 1, min-level: 1 }
+  - { effect: SPEED, amplifier: 1, min-level: 1 }

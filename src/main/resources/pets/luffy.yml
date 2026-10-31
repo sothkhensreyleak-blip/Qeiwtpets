@@ -1,0 +1,12 @@
+name: "&cLUFFY PET"
+description:
+  - "Future pirate king."
+  - "Strength I + Speed I"
+icon: HAY_BLOCK
+display-item: HAY_BLOCK
+scale: 0.7
+permission: ""
+level-xp-requirements: [50, 125, 200]
+abilities:
+  - { effect: STRENGTH, amplifier: 0, min-level: 1 }
+  - { effect: SPEED, amplifier: 0, min-level: 1 }
